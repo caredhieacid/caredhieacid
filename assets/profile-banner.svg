@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">caredhieacid — AI agents, developer tooling, and applied machine learning</title>
+  <desc id="desc">A dark terminal-inspired banner with a small cat illustration.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08111f"/>
+      <stop offset="0.55" stop-color="#101a31"/>
+      <stop offset="1" stop-color="#0b2530"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7aa2f7"/>
+      <stop offset="1" stop-color="#73daca"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#9eb7d7" stroke-opacity="0.07"/>
+    </pattern>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="280" rx="24" fill="url(#background)"/>
+  <rect width="1200" height="280" rx="24" fill="url(#grid)"/>
+  <path d="M0 214C184 158 342 263 548 216S936 166 1200 216V280H0Z" fill="#73daca" fill-opacity="0.055"/>
+  <circle cx="1080" cy="8" r="190" fill="#7aa2f7" fill-opacity="0.06"/>
+
+  <g transform="translate(58 44)">
+    <circle cx="8" cy="8" r="6" fill="#f7768e"/>
+    <circle cx="30" cy="8" r="6" fill="#e0af68"/>
+    <circle cx="52" cy="8" r="6" fill="#9ece6a"/>
+    <text x="0" y="58" fill="#a9b1d6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19">$ whoami</text>
+    <text x="0" y="105" fill="url(#accent)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="48" font-weight="700" letter-spacing="1">caredhieacid</text>
+    <text x="2" y="143" fill="#c0caf5" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="22">AI AGENTS  ·  DEVELOPER TOOLING  ·  APPLIED ML</text>
+    <text x="2" y="183" fill="#8b9abd" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">build useful things. share what works.</text>
+    <rect x="0" y="205" width="126" height="30" rx="15" fill="#7aa2f7" fill-opacity="0.12" stroke="#7aa2f7" stroke-opacity="0.52"/>
+    <text x="63" y="225" text-anchor="middle" fill="#b4c8ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">OPEN SOURCE</text>
+    <rect x="140" y="205" width="148" height="30" rx="15" fill="#73daca" fill-opacity="0.10" stroke="#73daca" stroke-opacity="0.48"/>
+    <text x="214" y="225" text-anchor="middle" fill="#9bf3df" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">中文 / ENGLISH</text>
+  </g>
+
+  <g transform="translate(920 50)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M42 72L63 25L100 55C119 47 142 47 161 55L198 25L218 74C235 94 239 126 226 151C210 181 175 198 130 198C85 198 50 181 34 151C21 126 25 95 42 72Z" fill="#101b31" stroke="url(#accent)" stroke-width="5"/>
+    <path d="M69 63L66 43L87 60M191 63L195 43L174 60" fill="none" stroke="#7aa2f7" stroke-width="4"/>
+    <ellipse cx="91" cy="112" rx="9" ry="13" fill="#73daca" filter="url(#glow)"/>
+    <ellipse cx="169" cy="112" rx="9" ry="13" fill="#73daca" filter="url(#glow)"/>
+    <path d="M121 137Q130 145 139 137M130 145V154M130 154Q114 166 102 154M130 154Q146 166 158 154" fill="none" stroke="#c0caf5" stroke-width="4"/>
+    <path d="M78 140L22 128M78 151L17 154M182 140L238 128M182 151L243 154" fill="none" stroke="#7aa2f7" stroke-opacity="0.75" stroke-width="3"/>
+    <path d="M111 132L130 125L149 132L130 142Z" fill="#f7768e" fill-opacity="0.9"/>
+  </g>
+
+  <rect x="1.5" y="1.5" width="1197" height="277" rx="22.5" fill="none" stroke="url(#accent)" stroke-opacity="0.25" stroke-width="3"/>
+</svg>
