@@ -1,67 +1,90 @@
-<p align="center">
-  <img src="./assets/profile-banner.svg" alt="caredhieacid — AI agents, developer tooling, and applied machine learning" width="100%" />
+# Jensen
+
+**Algorithms · AI Infrastructure · Full-Stack Development** &nbsp; / &nbsp; `@caredhieacid`
+
+<!-- Original AI-generated editorial artwork; conceptual illustrations, not product screenshots. -->
+<p>
+  <img src="./assets/illustrations/hero.jpg" alt="开发者工作台插画：电脑、机械臂、模块和一只睡着的小猫" width="100%">
 </p>
 
-<p align="center">
-  <a href="https://github.com/caredhieacid?tab=repositories"><img alt="Open source projects" src="https://img.shields.io/badge/open_source-projects-73daca?style=flat-square&labelColor=101a31"></a>
-  <a href="https://github.com/caredhieacid/jensenmo-happy_coding_everyday"><img alt="Codex skills" src="https://img.shields.io/badge/Codex-agent_skills-7aa2f7?style=flat-square&labelColor=101a31"></a>
-  <a href="https://gitee.com/caredhieacid"><img alt="Gitee profile" src="https://img.shields.io/badge/Gitee-caredhieacid-f7768e?style=flat-square&labelColor=101a31"></a>
+<p>
+  <a href="https://github.com/caredhieacid?tab=repositories"><img src="./assets/badges/algorithms.svg" alt="ALGORITHMS" height="28"></a>
+  <a href="https://github.com/caredhieacid?tab=repositories"><img src="./assets/badges/ai-infra.svg" alt="AI INFRA" height="28"></a>
+  <a href="https://github.com/caredhieacid?tab=repositories"><img src="./assets/badges/full-stack.svg" alt="FULL-STACK" height="28"></a>
 </p>
 
-## Hello / 你好 👋
+个人项目陆续开源。
 
-I build practical **AI agents**, **developer tools**, and **applied machine-learning projects**. I like systems that keep humans in control, make their boundaries explicit, and are useful outside a demo.
+<a id="selected-work"></a>
 
-我主要在做实用的 **AI Agent、开发者工具与应用型机器学习项目**，也会把过去的比赛和课程项目整理后开源。相比“看起来很智能”，我更在意工具是否可控、边界是否清楚、别人能否真正复用。
-
-- 🧭 Current focus: agent workflows, Codex skills, computer vision, and small tools with clear safety boundaries
-- 🛠️ Languages and tools: Python, TypeScript, GitHub Actions, OpenCV, YOLO, HarmonyOS
-- 🤝 Open to thoughtful issues, documentation fixes, and focused pull requests
-
-## Selected work / 精选项目
+## Selected work
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/caredhieacid/fund-copilot">Fund Copilot / 基金副驾</a></h3>
-      <p>A bounded AI agent skill that screens Chinese mutual funds from public data. It does not log in, place orders, or pretend to predict the market.</p>
-      <p><code>Python</code> <code>Agent Skill</code> <code>AKShare</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/caredhieacid/jensenmo-happy_coding_everyday">HappyCoding Everyday</a></h3>
-      <p>One automatic Codex coding entrance that scales rigor from everyday fixes to bounded collaboration and full delivery.</p>
-      <p><code>Codex</code> <code>Agent Workflow</code> <code>Python</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/caredhieacid/End-to-End-Multi-Source-Information-Fusion-and-Classroom-Interaction-Behavior-Analysis-System">ClassSense</a></h3>
-      <p>A desktop classroom-analysis system that combines face, emotion, pose, and object detection into one visual workflow.</p>
-      <p><code>Python</code> <code>YOLO</code> <code>PyQt</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/caredhieacid/anti-drone-aiming-aid">Anti-Drone Aiming Aid</a></h3>
-      <p>Real-time target detection, calibration, and aiming assistance built with YOLOv11, OpenCV, and a desktop GUI.</p>
-      <p><code>Computer Vision</code> <code>OpenCV</code> <code>YOLOv11</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
-      <h3><a href="https://github.com/caredhieacid/momo-word-masterharmonyos-5.0">Momo Word Master</a></h3>
-      <p>A HarmonyOS 5 vocabulary-learning app with review schedules, daily check-ins, multiple learning modes, and AI-assisted conversation practice.</p>
-      <p><code>HarmonyOS</code> <code>ArkTS</code> <code>Learning App</code></p>
-    </td>
-  </tr>
+<tr>
+<td width="50%" valign="top">
+  <a href="https://github.com/caredhieacid/talk-like-a-human"><img src="./assets/illustrations/writing.jpg" alt="写作整理概念插画：杂乱的墨带经过排字机，变成清楚的文字线条" width="100%"></a>
+  <h3><a href="https://github.com/caredhieacid/talk-like-a-human">像人一样说话 ↗</a></h3>
+  <p>面向 AI Agent 的中英文写作规范。</p>
+  <p><code>Agent Skill</code> <code>Writing</code> <code>中文 / EN</code></p>
+  <p><a href="https://github.com/caredhieacid/talk-like-a-human#examples">看改写对比 →</a></p>
+</td>
+<td width="50%" valign="top">
+  <a href="https://github.com/caredhieacid/jensenmo-happy_coding_everyday"><img src="./assets/illustrations/coding.jpg" alt="编程协作概念插画：工具箱里装着检查蓝图、代码部件、测试勾选模块和成品" width="100%"></a>
+  <h3><a href="https://github.com/caredhieacid/jensenmo-happy_coding_everyday">HappyCoding Everyday ↗</a></h3>
+  <p>涵盖问题分析、代码修改与验证的 AI 编程工作流。</p>
+  <p><code>Agent Skill</code> <code>Workflow</code> <code>Python</code></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+  <a href="https://github.com/caredhieacid/fund-copilot"><img src="./assets/illustrations/funds.jpg" alt="基金研究概念插画：放大镜检查分组研究资料和抽象图表" width="100%"></a>
+  <h3><a href="https://github.com/caredhieacid/fund-copilot">Fund Copilot · 基金副驾 ↗</a></h3>
+  <p>基于公开数据的公募基金筛选与研究工具。</p>
+  <p><code>Python</code> <code>AKShare</code> <code>Agent Skill</code></p>
+</td>
+<td width="50%" valign="top">
+  <a href="https://github.com/caredhieacid/End-to-End-Multi-Source-Information-Fusion-and-Classroom-Interaction-Behavior-Analysis-System"><img src="./assets/illustrations/vision.jpg" alt="计算机视觉概念插画：相机观察教室模型，彩色边框与关节点表示目标和姿态检测" width="100%"></a>
+  <h3><a href="https://github.com/caredhieacid/End-to-End-Multi-Source-Information-Fusion-and-Classroom-Interaction-Behavior-Analysis-System">ClassSense ↗</a></h3>
+  <p>融合人脸、表情、姿态与目标检测的课堂行为分析系统。</p>
+  <p><code>Python</code> <code>YOLO</code> <code>PyQt</code></p>
+</td>
+</tr>
 </table>
 
-## How I build / 我的原则
+**More to explore** &nbsp; [Momo Word Master · HarmonyOS 单词学习](https://github.com/caredhieacid/momo-word-masterharmonyos-5.0) &nbsp; / &nbsp; [Golden Agent · 市场信息看板](https://github.com/caredhieacid/Golden-Agent)
 
-```text
-useful over flashy  ·  evidence over guesses  ·  copilot over autopilot
-```
+<a id="toolbox"></a>
 
-If one of these projects is useful to you, an issue describing the real use case is more valuable than a generic compliment. Contributions are welcome when they keep the scope clear and the project easier to understand.
+## Toolbox
 
-<p align="center">
-  <sub>Thanks for stopping by. 感谢来访，祝你今天也写出一点有用的东西。</sub>
+**AI &amp; Agents**
+
+<p>
+  <img src="./assets/badges/ai-agents.svg" alt="AI Agents" height="30">
+  <img src="./assets/badges/agent-skills.svg" alt="Agent Skills" height="30">
+  <img src="./assets/badges/llm.svg" alt="LLM" height="30">
+  <img src="./assets/badges/codex.svg" alt="Codex" height="30">
+  <img src="./assets/badges/claude-code.svg" alt="Claude Code" height="30">
 </p>
+
+**Languages &amp; Frameworks**
+
+<p>
+  <img src="./assets/badges/python.svg" alt="Python" height="30">
+  <img src="./assets/badges/typescript.svg" alt="TypeScript" height="30">
+  <img src="./assets/badges/react.svg" alt="React" height="30">
+  <img src="./assets/badges/nodejs.svg" alt="Node.js" height="30">
+</p>
+
+**Vision &amp; Tooling**
+
+<p>
+  <img src="./assets/badges/github-actions.svg" alt="GitHub Actions" height="30">
+  <img src="./assets/badges/opencv.svg" alt="OpenCV" height="30">
+  <img src="./assets/badges/yolo.svg" alt="YOLO" height="30">
+  <img src="./assets/badges/harmonyos.svg" alt="HarmonyOS" height="30">
+</p>
+
+---
+
+[All repositories ↗](https://github.com/caredhieacid?tab=repositories) &nbsp; · &nbsp; [Gitee ↗](https://gitee.com/caredhieacid)
