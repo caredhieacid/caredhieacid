@@ -60,8 +60,8 @@
 **AI &amp; Agents**
 
 <p>
-  <img src="./assets/badges/ai-agents.svg" alt="AI Agents" height="30">
-  <img src="./assets/badges/agent-skills.svg" alt="Agent Skills" height="30">
+  <a href="https://github.com/caredhieacid/fund-copilot"><img src="./assets/badges/ai-agents.svg" alt="AI Agents" height="30"></a>
+  <a href="https://github.com/caredhieacid/jensenmo-happy_coding_everyday"><img src="./assets/badges/agent-skills.svg" alt="Agent Skills" height="30"></a>
   <img src="./assets/badges/llm.svg" alt="LLM" height="30">
 </p>
 
