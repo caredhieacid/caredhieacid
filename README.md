@@ -63,8 +63,6 @@
   <img src="./assets/badges/ai-agents.svg" alt="AI Agents" height="30">
   <img src="./assets/badges/agent-skills.svg" alt="Agent Skills" height="30">
   <img src="./assets/badges/llm.svg" alt="LLM" height="30">
-  <img src="./assets/badges/codex.svg" alt="Codex" height="30">
-  <img src="./assets/badges/claude-code.svg" alt="Claude Code" height="30">
 </p>
 
 **Languages &amp; Frameworks**
